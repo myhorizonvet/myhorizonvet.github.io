@@ -1,0 +1,305 @@
+{
+ "schema": "argo.horizonExecutive/1",
+ "accountability": {
+  "complete": 54,
+  "effectiveness": "45%",
+  "heatherOverdue": 14,
+  "mistyOverdue": 4,
+  "overdue": 18,
+  "source": "SYNTHETIC EXAMPLE · accountability report (fictional)",
+  "tracked": 120,
+  "worklistSource": "SYNTHETIC EXAMPLE · priority worklist (fictional)"
+ },
+ "exceptions": [
+  {
+   "cls": "escalate",
+   "level": "ESCALATE",
+   "owner": "Owner decision",
+   "text": "Example vendor invoice $900 due Fri; Wed is the last business day to act."
+  },
+  {
+   "cls": "escalate",
+   "level": "ESCALATE",
+   "owner": "Owner decision",
+   "text": "Example campaign full build due from the manager Wed; launch on the 1st if approved."
+  },
+  {
+   "cls": "action",
+   "level": "ACTION REQUIRED",
+   "owner": "Managers",
+   "text": "Labor over the 40% ceiling in this synthetic example: 41.2% last period, $410 over the line."
+  },
+  {
+   "cls": "watch",
+   "level": "WATCH",
+   "owner": "Management",
+   "text": "Friday revenue: softest day again in the example week ($2,240)."
+  },
+  {
+   "cls": "ontrack",
+   "level": "ON TRACK",
+   "owner": "No action",
+   "text": "Example week revenue up 8.2% on a normal week; collections 99% of billed."
+  }
+ ],
+ "forecast": {
+  "bars": [
+   {
+    "display": "$82,400",
+    "label": "October actual",
+    "proj": false,
+    "value": 82400
+   },
+   {
+    "display": "$61,300",
+    "label": "November MTD · thru Nov 23",
+    "proj": false,
+    "value": 61300
+   },
+   {
+    "display": "~$84,000",
+    "label": "November projected",
+    "proj": true,
+    "value": 84000
+   }
+  ],
+  "headline": "November at current pace: about $84,000",
+  "method": "SYNTHETIC EXAMPLE · simple pace model with fictional figures. Accuracy will be scored against the actual close.",
+  "range": "Range $81,000–$86,500 · vs October $82,400 — roughly flat",
+  "source": "SYNTHETIC EXAMPLE · Nova forecast (fictional)"
+ },
+ "freshness": "SYNTHETIC EXAMPLE DATA · fictional figures throughout · the live file is generated locally and never committed",
+ "marketPulse": {
+  "items": [
+   "Example: two recruiter-run DVM searches are live in the demo market.",
+   "Example: a corporate group's DVM posting nearby is still unfilled.",
+   "Example: a local nonprofit is confirmed as a grant recipient.",
+   "Example: a competitor is promoting weekday specials.",
+   "Example profile: 4.8 stars across 212 reviews."
+  ],
+  "source": "SYNTHETIC EXAMPLE · market watch (fictional)"
+ },
+ "patchNovember": {
+  "avgInvoice": 291.9,
+  "invoices": 210,
+  "newClients": 41,
+  "revenue": 61300,
+  "source": "SYNTHETIC EXAMPLE · Patch (fictional)"
+ },
+ "satisfaction": {
+  "googleRating": 4.8,
+  "googleReviews": 212,
+  "asOf": "Example date",
+  "source": "SYNTHETIC EXAMPLE · Google profile (fictional)"
+ },
+ "patchWeek": {
+  "headline": "A solid example week. Revenue was $21,400, up 8.2% on a normal week of $19,780. The average charge did the work: $243 against a normal $225, on 88 visits against a usual 88.",
+  "label": "Week · Mon Nov 16 – Sun Nov 22 (example)",
+  "note": "SYNTHETIC EXAMPLE · reconciliation note placeholder.",
+  "questions": [
+   "Surgery brought in $2,960 against a normal $1,900 in this example — worth confirming the week was coded right.",
+   "Pharmacy averaged $64 a visit against a usual $55 — did pricing change?",
+   "Friday stayed the soft day at $2,240 while Wednesday carried the week at $5,480."
+  ],
+  "source": "SYNTHETIC EXAMPLE · Patch weekly report (fictional)",
+  "stats": [
+   {
+    "delta": "▲ 8.2% · normal $19,780",
+    "label": "Revenue",
+    "value": "$21,400"
+   },
+   {
+    "delta": "Usual 88",
+    "label": "Visits",
+    "value": "88"
+   },
+   {
+    "delta": "Normal $225",
+    "label": "Avg charge",
+    "value": "$243"
+   },
+   {
+    "delta": "99% of billed",
+    "label": "Collected",
+    "value": "$21,150"
+   }
+  ]
+ },
+ "systems": [
+  {
+   "name": "Patch",
+   "status": "SYNTHETIC EXAMPLE · status placeholder",
+   "via": "via Ask Patch"
+  },
+  {
+   "name": "KPI Tracker",
+   "status": "SYNTHETIC EXAMPLE · status placeholder",
+   "via": "Manager's KPI tracker"
+  },
+  {
+   "name": "Payroll Tracker",
+   "status": "SYNTHETIC EXAMPLE · status placeholder",
+   "via": "Manager's payroll tracker"
+  },
+  {
+   "name": "GitHub Task List",
+   "status": "SYNTHETIC EXAMPLE · status placeholder",
+   "via": "Manager tracker"
+  }
+ ],
+ "topPriorities": [
+  "Get the example campaign build in Wed and decide it before the holiday.",
+  "Labor and COGS under budget — managers own both numbers.",
+  "Friday: fill the soft day — it is the cheapest revenue on the board."
+ ],
+ "snapshot": {
+  "revenueTrend": [
+   {
+    "label": "Jul",
+    "value": 78900
+   },
+   {
+    "label": "Aug",
+    "value": 81200
+   },
+   {
+    "label": "Sep",
+    "value": 79400
+   },
+   {
+    "label": "Oct",
+    "value": 82400
+   }
+  ],
+  "revenueNote": "Monthly revenue · Jul–Oct verified (example tracker) · Nov dashed = forecast",
+  "forecastPoint": {
+   "label": "Nov fcst",
+   "value": 84000,
+   "display": "~$84.0k"
+  },
+  "forecastActual": {
+   "value": 61300,
+   "label": "Nov 23 actual $61,300",
+   "frac": 0.77
+  },
+  "freshnessLine": "SYNTHETIC EXAMPLE · demo data only · not a real practice",
+  "weekTitle": "The Week · Patch Nov 16–22 · $21,400 · ↑ 8.2% vs normal week",
+  "weekDays": [
+   {
+    "d": "Mon",
+    "v": 3120
+   },
+   {
+    "d": "Tue",
+    "v": 4050
+   },
+   {
+    "d": "Wed",
+    "v": 5480
+   },
+   {
+    "d": "Thu",
+    "v": 3610
+   },
+   {
+    "d": "Fri",
+    "v": 2240,
+    "watch": true
+   },
+   {
+    "d": "Sat",
+    "v": 2900
+   }
+  ],
+  "weekNormalDayAvg": 3297,
+  "serviceMix": [
+   {
+    "name": "Pharmacy",
+    "value": 5610
+   },
+   {
+    "name": "Professional",
+    "value": 5240
+   },
+   {
+    "name": "Lab",
+    "value": 4180
+   },
+   {
+    "name": "Surgery / anesthesia",
+    "value": 2960
+   },
+   {
+    "name": "Imaging",
+    "value": 2030
+   },
+   {
+    "name": "Dentistry",
+    "value": 410
+   },
+   {
+    "name": "Other",
+    "value": 970
+   }
+  ],
+  "warnings": [
+   {
+    "cls": "escalate",
+    "level": "ESCALATE",
+    "text": "Example invoice $900 due Fri"
+   },
+   {
+    "cls": "escalate",
+    "level": "ESCALATE",
+    "text": "Example campaign build due Wed"
+   },
+   {
+    "cls": "action",
+    "level": "ACTION",
+    "text": "Labor over ceiling $410"
+   },
+   {
+    "cls": "watch",
+    "level": "WATCH",
+    "text": "Friday soft"
+   },
+   {
+    "cls": "watch",
+    "level": "WATCH",
+    "text": "Retention figure wrong"
+   },
+   {
+    "cls": "ontrack",
+    "level": "ON TRACK",
+    "text": "Collections 99%"
+   }
+  ],
+  "collections": {
+   "pct": "99%",
+   "label": "$21,150 collected · 99% of billed · Nov 16–22"
+  },
+  "market": [
+   "Two or more recruiter DVM searches live in the demo market.",
+   "Example corporate DVM post still unfilled.",
+   "Example nonprofit confirmed a grant recipient."
+  ],
+  "actions": [
+   {
+    "text": "Example campaign: the manager's full build lands Wed — decide it before the holiday so the launch holds.",
+    "owner": "Owner decides · Manager delivers"
+   },
+   {
+    "text": "Labor and COGS under budget: labor 41.2% vs the 40% ceiling, COGS 21.5% vs the 20% standard — managers own both numbers.",
+    "owner": "Managers"
+   }
+  ],
+  "laborNote": "Nov % pending — not estimated",
+  "cogsNote": "October · cash basis",
+  "askNova": {
+   "trackerQ": "Nova, what is overdue right now?",
+   "trackerA": "18 tracked items are overdue in this synthetic example — Manager A 14, Manager B 4. The dated one to watch: the example campaign build is due Wed.",
+   "patchQ": "How did last week go?",
+   "patchA": "Patch reports revenue of $21,400 for the example week, up 8.2% on a normal week. Collections were $21,150 — 99% of billed."
+  }
+ }
+}
